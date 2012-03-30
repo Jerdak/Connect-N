@@ -1,5 +1,5 @@
 This is a simple implementation of a Connect-N AI using
-MinMax and AlphaBeta pruning.
+MiniMax and AlphaBeta pruning.
 
 The code was written to support a class project so the
 GitHub port is likely to have comments I made to the
