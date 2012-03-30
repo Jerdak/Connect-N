@@ -1,0 +1,22 @@
+This is a simple implementation of a Connect-N AI using
+MinMax and AlphaBeta pruning.
+
+The code was written to support a class project so the
+GitHub port is likely to have comments I made to the
+professor.
+
+If you run the code as-is you'll see the AI post the name
+'Joshua' to the command line. This was our "referees" cue
+to input the board configuration.  To manually play the game,
+enter the following:
+
+8 8 4 0 10
+
+This sets up an 8x8 board where the player needs 4 in a row
+to win.  The fourth value is who starts, 0 = AI.  The last
+value 10 is the amount of time the AI has to "think".
+
+There isn't a prompt for your input but since the AI goes first,
+as soon as you see the game board enter a numeric value from 0-7
+where the value represents the column to drop in a token.  The AI
+will then take 10 seconds to come up with a counter.
