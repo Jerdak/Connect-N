@@ -322,7 +322,7 @@ void timerTest(){
 /** Play Connect-N
 	@notes
 		This is the official play loop as outlined
-		in the homework documentation.
+		in the CS534 homework documentation.
 */
 void play(){
 	int width,height,n,player,timeLimit, move;
